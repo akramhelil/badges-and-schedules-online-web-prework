@@ -1,10 +1,11 @@
 # Write your code here.
-attendence = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
 "Hello, my name is#{name} ."
 end
 
-def batch_badge_creator(attendence)
-
+def batch_badge_creator(attendees)
+ attendees.map do |attendee|
+   "Hello, myname is #{attendees}."
 end
