@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
  attendees.map do |attendee|
    "Hello, myname is #{attendees}."
 end
-# did not quiet get the codes from here below... 
+## did not quiet get the codes from here below... 
   def assign_rooms(attendees)
   attendees.each_with_index.map do |attendee, index|
     "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
